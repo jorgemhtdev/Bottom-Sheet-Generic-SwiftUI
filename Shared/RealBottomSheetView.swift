@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct RealBottomSheetView<Content: View >: View {
+struct RealBottomSheetView<Content: View>: View {
     
     var width: CGFloat
     let content: Content
