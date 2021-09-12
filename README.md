@@ -13,7 +13,7 @@
 
 ### BottomSheetView
 
-- **GeometryReader:** Es un contenedor de vistas que permite acceder a su tamaño y posición.  **+ Info:** https://developer.apple.com/documentation/swiftui/gesture
+- **GeometryReader:** Es un contenedor de vistas que permite acceder a su tamaño y posición.  **+ Info:** https://developer.apple.com/documentation/swiftui/geometryreader
 
 ### ContentBottomSheetView
 
