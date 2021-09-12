@@ -17,4 +17,5 @@
 
 ### ContentBottomSheetView
 
-- Una vista sencilla
+<img src="https://github.com/jorgemhtdev/Bottom-Sheet-Generic-SwiftUI/blob/main/Bottom-Sheet-Generic-SwiftUI.gif" width="300" height="650" />
+
