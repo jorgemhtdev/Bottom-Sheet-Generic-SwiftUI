@@ -1,10 +1,3 @@
-//
-//  BottomSheetApp.swift
-//  Shared
-//
-//  Created by jorgemht on 11/9/21.
-//
-
 import SwiftUI
 
 @main
