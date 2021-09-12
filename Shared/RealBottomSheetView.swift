@@ -2,7 +2,6 @@ import SwiftUI
 
 struct RealBottomSheetView<Content: View >: View {
     
-    @Binding var modalViewActive: Bool
     var width: CGFloat
     let content: Content
     
@@ -26,6 +25,7 @@ struct RealBottomSheetView<Content: View >: View {
 
 struct RealBottomSheetView_Previews: PreviewProvider {
     static var previews: some View {
-        RealBottomSheetView(modalViewActive: .constant(true), width: (CGFloat(width)), content: Text("hola"))
+        RealBottomSheetView(width: (CGFloat(width)), content: ContentBottomSheetView(modalViewActive: .constant(true), width: 180, height: 180))
+            
     }
 }

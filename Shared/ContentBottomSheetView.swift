@@ -24,7 +24,9 @@ struct ContentBottomSheetView: View {
                     Spacer()
                     
                     Button(action: {
-                        modalViewActive.toggle()
+                        withAnimation{
+                            modalViewActive.toggle()
+                        } 
                     }, label: {
                         Image(systemName: "xmark")
                             .foregroundColor(.white)

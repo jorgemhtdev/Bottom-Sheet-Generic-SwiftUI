@@ -30,7 +30,7 @@ struct BottomSheetView<Content: View >: View  {
             
             if modalViewActive {
                 ZStack {
-                    RealBottomSheetView(modalViewActive: $modalViewActive,  width: width, content: contentModal)
+                    RealBottomSheetView(width: width, content: contentModal)
                 }
                 .animation(.easeInOut)
                 .transition(.move(edge: .bottom))

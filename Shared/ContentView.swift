@@ -20,11 +20,11 @@ struct ContentView: View {
                         ))
                         .edgesIgnoringSafeArea(.all)
                     
-                    BottomSheetView(modalViewActive: $modalViewActive, offset: $offset, width: bounds.size.height / 1.5, contentView: AnyView( VStack {
+                    BottomSheetView(modalViewActive: $modalViewActive, offset: $offset, width: bounds.size.height / 1.55, contentView: AnyView( VStack {
                         Image(uiImage: #imageLiteral(resourceName: "jobs"))
                             .resizable()
                             .scaledToFit()
-                            .frame(width: bounds.size.width / 1.5, height: bounds.size.height / 4)
+                            .frame(width: bounds.size.width / 1.6, height: bounds.size.height / 4)
                         
                         Text("Hola, soy Steve. Abre el regalo.")
                             .foregroundColor(.white)
@@ -34,7 +34,9 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem {
                     Button(action: {
-                        modalViewActive.toggle()
+                        withAnimation{
+                            modalViewActive.toggle()
+                        }
                     }, label: {
                         Image(systemName: "gift")
                     })
