@@ -3,7 +3,7 @@
 
 ### RealBottomSheetView
 
-- **RoundedRectangle:** Una forma rectangular con esquinas. **+ Info:**  https://developer.apple.com/documentation/swiftui/roundedrectangle
+- **RoundedRectangle:** Una forma rectangular con esquinas redondeas. **+ Info:**  https://developer.apple.com/documentation/swiftui/roundedrectangle
 - **Offset:** Nos permite desplazar una vista por la distancia horizontal y vertical (x es horizontal, y es vertical).  **+ Info:**  https://developer.apple.com/documentation/swiftui/view/offset(x:y:)
 - **ViewBuilder:** Nos permite pasar múltiples vistas a una vista especifica: **+ Info**:  https://developer.apple.com/documentation/swiftui/viewbuilder
 
